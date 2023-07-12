@@ -13,6 +13,14 @@ public class ServiceCircunferencia {
         return new Circunferencia(rad);
     }
     
+     public void areaCircunferencia(double radio){
+        
+          System.out.println("El área de la circunferencia es:" +Math.PI*(Math.pow(radio, 2)));
+    }
+    
+    public void perimetroCircunferencia(double radio){
+        System.out.println("El perímetro de la circunferencia es: "+ 2*radio*Math.PI);
+    }
   
     
     

@@ -8,9 +8,11 @@ public class MainCircunferencia {
     public static void main(String[] args) {
         ServiceCircunferencia sc = new ServiceCircunferencia();
         Circunferencia c1=sc.crearCircunferencia();
-        c1.areaCircunferencia();
-        c1.perimetroCircunferencia();
-        //System.out.println(c1);
+        
+        sc.areaCircunferencia(c1.getRadio());
+        sc.perimetroCircunferencia(c1.getRadio());
+        
+        System.out.println(c1);
     }
     
 }

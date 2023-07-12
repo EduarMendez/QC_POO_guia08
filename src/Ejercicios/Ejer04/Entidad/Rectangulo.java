@@ -35,24 +35,7 @@ public class Rectangulo {
         this.altura = altura;
     }
 
-    public double perimetroRectangulo() {
-        return (base + altura) * 2;
-    }
-
-    public void superficieRectangulo() {
-        Rectangulo rect = new Rectangulo(base, altura);
-        System.out.println("La superficie del rectangulo es: " + ((base * altura )/ rect.perimetroRectangulo()));
-    }
     
-    public void dibujarRectangulo(double base, double altura){
-        for (int i = 0; i <altura; i++) {
-            for (int j = 0; j <base; j++) {
-                System.out.print("*");
-                
-            }
-            System.out.println(" ");
-        }
-    }
 
     @Override
     public String toString() {

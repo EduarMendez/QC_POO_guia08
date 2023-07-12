@@ -24,16 +24,7 @@ public class Circunferencia {
 
     public void setRadio(double radio) {
         this.radio = radio;
-    }
-    
-      public void areaCircunferencia(){
-        
-          System.out.println("El área de la circunferencia es:" +Math.PI*(Math.pow(radio, 2)));
-    }
-    
-    public void perimetroCircunferencia(){
-        System.out.println("El perímetro de la circunferencia es: "+ 2*radio*Math.PI);
-    }
+    }  
 
     @Override
     public String toString() {

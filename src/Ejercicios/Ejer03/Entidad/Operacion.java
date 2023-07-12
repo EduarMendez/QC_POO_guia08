@@ -46,33 +46,7 @@ public class Operacion {
     public void setNum2(double num2) {
         this.num2 = num2;
     }
-
-    public double sumar() {
-        return num1 + num2;
-    }
-
-    public double restar() {
-        return num1 - num2;
-    }
-
-    public void multiplicar() {
-        if (num1 == 0 || num2 == 0) {
-            System.out.println("El resultado es cero porque se está multiplicando por cero");
-        } else {
-            System.out.println("La multiplicación es: " + num1 * num2);
-        }
-    }
     
-    public void dividir(){
-        if(num1==0){
-            System.out.println("El resultado es cero pues el numerador es cero");
-        }else if(num2==0){
-            System.out.println("ERROR: No se puede dividir por cero");
-        }else{
-            System.out.println("La división es: "+num1/num2);
-        }
-    }
-
     @Override
     public String toString() {
         return "Operacion{" + "num1=" + num1 + ", num2=" + num2 + '}';
